@@ -1,0 +1,58 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Tugas5_Penjualan.Ayam;
+
+/**
+ *
+ * @author Riki Firmansyah
+ */
+public class PenjualanAyam {
+    public String namaPenjual;
+    public String jenisAyam;
+    String umur;
+    String jenisKelamin;
+    private int hargaPerEkor;
+    
+    void dataNamaPenjual(String NamaPenjual){
+        this.namaPenjual = NamaPenjual;
+    }
+    
+    void dataJenisAyam(String jenisAyam){
+        this.jenisAyam = jenisAyam;
+    }
+    
+    void dataUmur(String Umur){
+        this.umur = Umur;
+    }
+    
+    void dataJenisKelamin(String JenisKelamin){
+        this.jenisKelamin = JenisKelamin;
+    }
+    
+    void dataHargaAyam(int hargaPerEkor){
+        this.hargaPerEkor = hargaPerEkor;
+        
+    }
+    
+    public String getPenjual(){
+        return namaPenjual;
+    }
+     
+    public String getJenisAyam(){
+        return jenisAyam;
+    }
+     
+    public String getUmur() {
+        return umur;
+    }
+    
+    public String getJenisKelamin() {
+        return jenisKelamin;
+    }
+    
+    public int getHargaAyam(){
+        return hargaPerEkor = 50000;
+    }
+}
